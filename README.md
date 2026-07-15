@@ -46,7 +46,7 @@ skycast-weather/
 1. Download or clone the project.
 
 ```
-git clone 
+git clone https://github.com/Manurajput123/weather-app.git
 ```
 
 2. Open the project folder.
