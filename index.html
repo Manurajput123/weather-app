@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Weather Effects -->
+
+    <div id="rainEffect"></div>
+    <div id="snowEffect"></div>
+
+    <!-- Main Container -->
+
+    <main class="dashboard">
+
+        <header>
+
+            <h1>Weather Dashboard</h1>
+
+            <p>Real-Time Weather Dashboard</p>
+
+        </header>
+
+        <!-- Search -->
+
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Search city..."
+                autocomplete="off">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </section>
+
+        <!-- Temperature Toggle -->
+
+        <section class="unit-box">
+
+            <span>°C</span>
+
+            <label class="switch">
+
+                <input
+                    type="checkbox"
+                    id="unitToggle">
+
+                <span class="slider"></span>
+
+            </label>
+
+            <span>°F</span>
+
+        </section>
+
+        <!-- Current Weather -->
+
+        <section
+            id="currentWeather"
+            class="weather-panel">
+
+        </section>
+
+        <!-- Weather Details -->
+
+        <section class="details-grid">
+
+            <div class="detail-card">
+
+                <h3>Humidity</h3>
+
+                <p id="humidityValue">--</p>
+
+            </div>
+
+            <div class="detail-card">
+
+                <h3>Wind</h3>
+
+                <p id="windValue">--</p>
+
+            </div>
+
+            <div class="detail-card">
+
+                <h3>Feels Like</h3>
+
+                <p id="feelsLikeValue">--</p>
+
+            </div>
+
+            <div class="detail-card">
+
+                <h3>Pressure</h3>
+
+                <p id="pressureValue">--</p>
+
+            </div>
+
+        </section>
+
+        <!-- Hourly Forecast -->
+
+        <section class="forecast-section">
+
+            <h2>Hourly Forecast</h2>
+
+            <div
+                id="hourlyForecast"
+                class="hourly-list">
+
+            </div>
+
+        </section>
+
+        <!-- Weekly Forecast -->
+
+        <section class="forecast-section">
+
+            <h2>Weekly Forecast</h2>
+
+            <div
+                id="weeklyForecast"
+                class="weekly-list">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
