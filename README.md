@@ -1,3 +1,5 @@
+https://manurajput123.github.io/weather-app/
+
 # Weather Dashboard
 
 SkyCast is a lightweight weather dashboard that provides current weather conditions, hourly updates, and a multi-day forecast for any city using the OpenWeather API. It features a responsive interface, animated weather effects, and automatic day/night themes.
